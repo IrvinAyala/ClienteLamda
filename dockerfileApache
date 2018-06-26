@@ -1,3 +1,0 @@
-FROM httpd:alpine
-#ADD ./Files/ /usr/local/apache2/htdocs/
-
