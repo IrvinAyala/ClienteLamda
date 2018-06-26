@@ -7,4 +7,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./javascript/:/usr/local/apache2/htdocs/
+      - ./Files/:/usr/local/apache2/htdocs/

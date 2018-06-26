@@ -1,3 +1,3 @@
 FROM httpd:alpine
-#ADD ./javascript/ /usr/local/apache2/htdocs/
+#ADD ./Files/ /usr/local/apache2/htdocs/
 
