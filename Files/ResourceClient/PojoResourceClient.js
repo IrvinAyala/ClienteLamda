@@ -3,7 +3,7 @@ class PojoResourceClient {
         this._urlpojo = "https://q0r0kgr0tl.execute-api.us-east-2.amazonaws.com/tpistage/seleccionesmundial";
     }
 
-    findByGroup(group,type) {
+    findByGroup(group, type) {
         let init = {
             method: 'POST',
             headers: {
@@ -16,6 +16,5 @@ class PojoResourceClient {
         };
         return fetch(this._urlpojo, init);
     }
-
 }
 export default PojoResourceClient;

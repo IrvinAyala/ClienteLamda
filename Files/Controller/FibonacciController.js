@@ -25,7 +25,6 @@ btnSearch.addEventListener("click", (e) => {
 
         for (let i = 0; i < data.length; i++) {
             let p = document.createElement('p');
-            console.log(data[i]);
             p.innerText = data[i];
             div.appendChild(p);
         }
